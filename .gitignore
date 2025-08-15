@@ -1,0 +1,32 @@
+# 忽略Python编译生成的文件和目录
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 忽略输出和测试文件目录
+output/
+test_downloads/
+
+# 忽略密钥和配置文件
+keypass
+keypass.backup
+config/secret_config.json
+
+# 忽略VS Code配置
+.vscode/
+
+# 忽略PyInstaller生成的文件
+main.spec
+*.exe
+*.dll
+*.pyd
+*.so
+
+# 忽略虚拟环境
+venv/
+env/
+
+# 忽略其他临时文件
+*.log
+*.tmp
+*~
