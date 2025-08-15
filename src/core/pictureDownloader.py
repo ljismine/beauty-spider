@@ -136,4 +136,4 @@ class pictureDownloadWorker():
             except Exception as e:
                 # 失败，删掉整个文件夹
                 shutil.rmtree(self.__savePath)
-                print(f"文件下载失败，图集 {self.__savePath.split('\\')[-1]} 已被移除")
+                print(f"文件下载失败，图集 {os.path.basename(self.__savePath)} 已被移除")
